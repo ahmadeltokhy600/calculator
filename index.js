@@ -1,4 +1,8 @@
 /* global React, ReactDOM */
+
+// اسم المشروع
+const projectName = 'javascript-calculator';
+/* global React, ReactDOM */
 /* eslint-disable react/prop-types, react/no-multi-comp,
  no-eval, no-nested-ternary */
 
@@ -317,3 +321,5 @@ class Formula extends React.Component {
 }
 
 ReactDOM.render(<Calculator />, document.getElementById('app'));
+
+
